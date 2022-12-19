@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="refresh" content="3;./game/index.html" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>I'M NOT BLOCKED</title>
+    <link rel="icon" href="assets/new-logo/warning.png">
+    <style>
+        body {
+            background: black;
+            font-family: 'Roboto';
+            color: white;
+            font-size: xx-large;
+            font-weight: bold;
+            animation: appearing 1.5s ease-in-out;
+            text-align: center;
+        }
+        .align {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Roboto';
+        }
+        .logo {
+            font-weight: normal !important;
+            font-size: 16px !important;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            opacity: 75%;
+        }
+        ::selection {
+            background-color: black;
+            color: white;
+        }
+        @keyframes appearing {
+            0% {opacity: 0;}
+            100% {opacity: 100% !important;}
+        }
+    </style>
+</head>
+<body>
+    <div class="align">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/a/ad/YouTube_loading_symbol_3_%28transparent%29.gif" height="350px">
+    </div>Loading... (This may take a while)
+    <br></br>
+  <button onclick="window.location.href='./OGLoader.html';">
+      Use version with 1.8 textures (Redirects this embed, doesn't open a new tab)
+    </button>
+    <br></br>
+ <button onclick="window.location.href='./OGLoader.html';">
+      Play 
+    </button>
+    <div class="logo">
+        Custom loader made by TG20
+        <img src="https://avatars.githubusercontent.com/u/79722408?s=1280&v=4" height="15px">
+    </div>
+</body>
+</html>
